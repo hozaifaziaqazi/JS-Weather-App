@@ -1,6 +1,8 @@
-import { weatherApiKey } from "./Api_Keys.js";
-import { weatherApiUrl } from "./Api_Keys.js"; 
-import { countryApi } from "./Api_Keys.js";
+import { weatherApiKey } from "./Api_Keys.js"; // After writing the ApiKey below, remove this line
+// const weatherApiKey = "Enter your api key";
+const weatherApiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
+const countryApi = "https://countriesnow.space/api/v0.1/countries/capital";
+
 const searchBox = document.querySelector(".search input");
 const searchBtn = document.querySelector(".search button");
 const weatherIcon = document.querySelector(".weather-icon");
